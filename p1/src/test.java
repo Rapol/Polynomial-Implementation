@@ -8,11 +8,8 @@ import edu.uprm.ece.icom4035.polynomial.TermImp;
 
 public class test {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Polynomial must be in descinding order of powers
 		PolynomialImp tester = new PolynomialImp("x^2+x^-1");
 		PolynomialImp tester1 = new PolynomialImp("-1x^2+-1x^-2");
 		System.out.println(tester1.add(tester));
