@@ -9,7 +9,7 @@ import edu.uprm.ece.icom4035.polynomial.TermImp;
 public class test {
 
 	public static void main(String[] args) {
-		// Polynomial must be in descinding order of powers
+		// Polynomial doesnt need to be in order of descing powers
 		PolynomialImp tester = new PolynomialImp("x^2+x^-1");
 		PolynomialImp tester1 = new PolynomialImp("-1x^2+-1x^-2");
 		System.out.println(tester1.add(tester));
